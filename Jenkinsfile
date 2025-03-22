@@ -12,8 +12,8 @@ pipeline {
     }
     
     tools {
-        maven 'Maven'    // Assuming Maven tool is configured with this name in Jenkins
-        jdk 'JDK'        // Assuming JDK tool is configured with this name in Jenkins
+        maven 'maven'    // Replace 'maven' with the exact Maven installation name from Global Tool Configuration
+        jdk 'jdk11'      // Replace 'jdk11' with the exact JDK installation name
     }
 
     stages {
