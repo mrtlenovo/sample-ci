@@ -8,7 +8,7 @@ pipeline {
     }
 
     environment {
-        NEXUS_URL = 'http://nexus.example.com:8081/repository/maven-releases/'  // Nexus repository URL (Update accordingly)
+        NEXUS_URL = 'https://nexus-cicd-prod.apps.ocptest.demo.local:8081/repository/maven-releases/'  // Nexus repository URL (Update accordingly)
         NEXUS_CREDENTIALS_ID = 'nexus-creds'  // Jenkins credentials ID for Nexus
         MVN_REPO = 'maven-releases'  // Nexus repository name
         GROUP_ID = 'com.example'  // Maven Group ID
