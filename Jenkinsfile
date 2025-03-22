@@ -8,7 +8,7 @@ pipeline {
         PACKAGING = 'jar'
         MVN_REPO = 'maven-releases'
         NEXUS_URL = 'https://nexus-cicd-prod.apps.ocptest.demo.local:8081/repository/maven-releases/'
-        NEXUS_CREDENTIALS_ID = 'nexus-credentials'
+        NEXUS_CREDENTIALS_ID = 'nexus-creds'
     }
     
     tools {
