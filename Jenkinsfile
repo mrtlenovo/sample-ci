@@ -46,7 +46,7 @@ pipeline {
                         -DartifactId=${ARTIFACT_ID} \
                         -Dversion=${VERSION} \
                         -Dpackaging=${PACKAGING} \
-                        -Dfile=target/${ARTIFACT_ID}-${VERSION}.${PACKAGING} \
+                        -Dfile=target/sample-app-1.0-SNAPSHOT.jar \
                         -DrepositoryId=${MVN_REPO} \
                         -Durl=${NEXUS_URL} \
                         -DgeneratePom=true
