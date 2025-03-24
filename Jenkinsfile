@@ -12,7 +12,7 @@ pipeline {
     }
     
     tools {
-        maven 'maven'    // Replace 'maven' with the exact Maven installation name from Global Tool Configuration
+        maven 'maven3'    // Replace 'maven' with the exact Maven installation name from Global Tool Configuration
         jdk 'jdk11'      // Replace 'jdk11' with the exact JDK installation name
     }
 
